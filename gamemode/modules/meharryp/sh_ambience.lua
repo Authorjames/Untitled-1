@@ -2,11 +2,11 @@
 
 if CLIENT then
   -- In case of rocketmainia:
-  for i=1, 500 do
-	surface.CreateFont( "cardealer" .. i, {
+  for i=1, 1680 do
+	surface.CreateFont( "cardealer-"..i, {
 		font = "Roboto",
-		size = math.random( 1, 100 ),
-		weight = math.random( 1, 1000 )
+		size = i,
+		weight = 400,
 	} )
   end
   // Create relaxing background music
